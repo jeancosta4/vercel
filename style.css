@@ -1,5 +1,33 @@
 body{
-    background-color: aquamarine;
     margin: 0 auto;
-    max-width: 90%;
+    background-color: #ccc;
+    max-height: 100vh;
+}
+
+
+.container{
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+
+header{
+    grid-column: 1 / span3 ;
+    background-color: rgb(24, 23, 22);
+    color: white;
+}
+
+footer{
+    grid-column: 1 / span3;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+aside{
+    background-color: rgb(93, 108, 108);
+}
+
+main{
+    background-color: rgb(234, 246, 242);
+    height: 80vh;
 }
